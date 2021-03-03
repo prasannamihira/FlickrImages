@@ -18,9 +18,9 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 object NetworkModule {
 
     /**
-     * Provides the car service implementation.
+     * Provides the flickr service implementation.
      * @param retrofit the Retrofit object used to instantiate the service
-     * @return the Car service implementation.
+     * @return the flickr service implementation.
      */
     @Provides
     @Reusable
