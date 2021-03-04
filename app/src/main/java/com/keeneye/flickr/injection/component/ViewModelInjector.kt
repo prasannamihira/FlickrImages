@@ -15,9 +15,9 @@ interface ViewModelInjector {
 
     /**
      * Injects required dependencies into the specified ImageListViewModel.
-     * @param ImageListViewModel ImageListViewModel in which to inject the dependencies
+     * @param imageListViewModel ImageListViewModel in which to inject the dependencies
      */
-    fun inject(ImageListViewModel: ImageListViewModel)
+    fun inject(imageListViewModel: ImageListViewModel)
 
     /**
      * Injects required dependencies into the specified ImageViewModel.
